@@ -16,7 +16,6 @@ body {
 
 h1 {
     font-family: 'Anton', sans-serif;
-    font-size: 5rem;
 }
 
 h2,
@@ -49,7 +48,4 @@ ul li {
     display: flex;
 }
 
-#header-img {
-    height: 80px;
-    width: 20%;
-}
+#hee

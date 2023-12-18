@@ -1,4 +1,4 @@
-/* Page Stylings */
+    /* Page Stylings */
 
 * {
     box-sizing: border-box;
@@ -16,7 +16,6 @@ body {
 
 h1 {
     font-family: 'Anton', sans-serif;
-    font-size: 5rem;
 }
 
 h2,
@@ -38,18 +37,6 @@ h6 {
 }
 
 ul li {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    float: right;
-    margin: 5px;
-}
-
-#header {
-    display: flex;
-}
-
-#header-img {
-    height: 80px;
-    width: 20%;
-}
+    header {
+        display: flex;
+    }

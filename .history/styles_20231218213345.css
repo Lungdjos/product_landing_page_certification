@@ -16,7 +16,6 @@ body {
 
 h1 {
     font-family: 'Anton', sans-serif;
-    font-size: 5rem;
 }
 
 h2,
@@ -32,24 +31,6 @@ h6 {
     font-size: 3rem;
 }
 
-#nav-bar a {
-    text-decoration: none;
-    color: #000;
-}
-
-ul li {
+#nav header {
     display: flex;
-    align-items: center;
-    justify-content: right;
-    float: right;
-    margin: 5px;
-}
-
-#header {
-    display: flex;
-}
-
-#header-img {
-    height: 80px;
-    width: 20%;
 }
