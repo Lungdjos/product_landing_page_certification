@@ -269,7 +269,7 @@ footer>span {
 @media (max-width: 650px) {
     .logo {
         margin-top: 15px;
-        width: 50px;
+        width: 10%;
         position: relative;
     }
 }

@@ -139,7 +139,7 @@ nav>ul {
 #home input[type='submit']:hover {
     background-color: var(--btnc2);
     transition: background-color 1s;
-    color: var(--fc2);
+    color
 }
 
 #features {
@@ -269,7 +269,7 @@ footer>span {
 @media (max-width: 650px) {
     .logo {
         margin-top: 15px;
-        width: 50px;
+        width: 100%;
         position: relative;
     }
 }
