@@ -178,7 +178,7 @@ nav>ul {
     border-radius: 3px;
 }
 
-.product>h2 {
+.product>.level {
     background-color: #ddd;
     color: var(--fc1);
     padding: 15px 0;
@@ -232,7 +232,6 @@ footer>span {
     justify-content: flex-end;
     font-size: 0.9em;
     color: #444;
-    font-weight: bold;
 }
 
 
@@ -303,17 +302,5 @@ footer>span {
 @media (max-width: 650px) {
     #features {
         margin-top: 0;
-    }
-}
-
-@media (max-width: 800px) {
-    #pricing {
-        flex-direction: column;
-    }
-    .product {
-        max-width: 300px;
-        width: 100%;
-        margin: 0 auto;
-        margin-bottom: 10px;
     }
 }
