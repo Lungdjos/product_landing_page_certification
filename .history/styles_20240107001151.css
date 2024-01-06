@@ -4,10 +4,8 @@
 :root {
     --bc1: #99a2a2;
     --bc2: #214b54;
-    --bc3: #232d37;
+    --bc3: ;
     --fc1: #212121;
-    --fc2: #eeeeee;
-    --fc3: #1b86c9;
     --btnc1: #c42b1c;
     --btnc2: #b70b0b;
 }
@@ -32,8 +30,7 @@ li {
 }
 
 a {
-    color: var(--fc2);
-    font-weight: bold;
+    color: var(--fc1);
     text-decoration: none;
 }
 
@@ -70,7 +67,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--bc3);
+    background-color: var(--bc1);
 }
 
 .logo {
@@ -117,8 +114,6 @@ nav>ul {
 #home>span {
     margin-bottom: 20px;
     word-wrap: break-word;
-    font-style: italic;
-    font: arial, serif;
 }
 
 #home input[type='email'] {
@@ -194,7 +189,7 @@ nav>ul {
 
 .product>h2 {
     background-color: var(--bc2);
-    color: var(--fc3);
+    color: var(--fc1);
     padding: 15px 0;
     width: 100%;
     text-transform: uppercase;
@@ -245,7 +240,7 @@ footer>span {
     display: flex;
     justify-content: flex-end;
     font-size: 0.9em;
-    color: #99a2a2;
+    color: #444;
     font-weight: bold;
 }
 

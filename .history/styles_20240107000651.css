@@ -3,13 +3,9 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 :root {
     --bc1: #99a2a2;
-    --bc2: #214b54;
-    --bc3: #232d37;
     --fc1: #212121;
-    --fc2: #eeeeee;
-    --fc3: #1b86c9;
     --btnc1: #c42b1c;
-    --btnc2: #b70b0b;
+    --btnc1
 }
 
 * {
@@ -32,8 +28,7 @@ li {
 }
 
 a {
-    color: var(--fc2);
-    font-weight: bold;
+    color: var(--fc1);
     text-decoration: none;
 }
 
@@ -70,7 +65,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--bc3);
+    background-color: var(--bc1);
 }
 
 .logo {
@@ -117,8 +112,6 @@ nav>ul {
 #home>span {
     margin-bottom: 20px;
     word-wrap: break-word;
-    font-style: italic;
-    font: arial, serif;
 }
 
 #home input[type='email'] {
@@ -133,11 +126,11 @@ nav>ul {
     height: 30px;
     margin: 15px 0;
     border: 0;
-    background-color: var(--btnc1);
+    background-color: #c42b1c;
 }
 
 #home input[type='submit']:hover {
-    background-color: var(--btnc2);
+    background-color: orange;
     transition: background-color 1s;
 }
 
@@ -193,8 +186,8 @@ nav>ul {
 }
 
 .product>h2 {
-    background-color: var(--bc2);
-    color: var(--fc3);
+    background-color: #ddd;
+    color: var(--fc1);
     padding: 15px 0;
     width: 100%;
     text-transform: uppercase;
@@ -216,18 +209,18 @@ nav>ul {
 .product>button {
     border: 0;
     margin: 15px 0;
-    background-color: var(--btnc1);
+    background-color: #c42b1c;
     font-weight: 400;
 }
 
 .product>button:hover {
-    background-color: var(--btnc2);
+    background-color: orange;
     transition: background-color 1s;
 }
 
 footer {
     margin-top: 30px;
-    background-color: var(--bc2);
+    background-color: #ddd;
     padding: 20px;
 }
 
@@ -245,7 +238,7 @@ footer>span {
     display: flex;
     justify-content: flex-end;
     font-size: 0.9em;
-    color: #99a2a2;
+    color: #444;
     font-weight: bold;
 }
 

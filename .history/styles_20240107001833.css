@@ -117,8 +117,6 @@ nav>ul {
 #home>span {
     margin-bottom: 20px;
     word-wrap: break-word;
-    font-style: italic;
-    font: arial, serif;
 }
 
 #home input[type='email'] {
@@ -194,7 +192,7 @@ nav>ul {
 
 .product>h2 {
     background-color: var(--bc2);
-    color: var(--fc3);
+    color: var(--fc1);
     padding: 15px 0;
     width: 100%;
     text-transform: uppercase;
@@ -245,7 +243,7 @@ footer>span {
     display: flex;
     justify-content: flex-end;
     font-size: 0.9em;
-    color: #99a2a2;
+    color: #444;
     font-weight: bold;
 }
 
