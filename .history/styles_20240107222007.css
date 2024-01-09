@@ -3,11 +3,11 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 :root {
     --bc1: #99a2a2;
-    --bc2: orangered;
+    --bc2: #214b54;
     --bc3: #232d37;
     --fc1: #212121;
     --fc2: #eeeeee;
-    --fc3: white;
+    --fc3: #1b86c9;
     --btnc1: #c42b1c;
     --btnc2: #b70b0b;
 }
@@ -73,8 +73,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--bc2);
-    width: 100%;
+    background-color: var(--bc3);
 }
 
 .logo {
@@ -117,7 +116,7 @@ nav>ul {
 }
 
 #home>h2 {
-    margin-top: 80px;
+    margin-top: 20px;
     word-wrap: break-word;
 }
 
@@ -202,10 +201,7 @@ nav>ul {
     margin-top: 4px;
 }
 
-.product>p:last-of-type {
-    padding-top: 3px;
-    text-decoration: underline;
-}
+.product>p::la {}
 
 .product {
     display: flex;

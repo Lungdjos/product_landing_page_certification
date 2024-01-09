@@ -74,7 +74,6 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: var(--bc2);
-    width: 100%;
 }
 
 .logo {
@@ -117,7 +116,7 @@ nav>ul {
 }
 
 #home>h2 {
-    margin-top: 80px;
+    margin-top: 20px;
     word-wrap: break-word;
 }
 
